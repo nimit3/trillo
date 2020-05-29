@@ -257,10 +257,11 @@
             font-size: 1.8rem;
             padding: 1.25rem 2rem;
         }
+
     }
 
     &__stars{
-        margin-right: auto;
+       // margin-right: auto;
     }
 
     &__icon-star,
@@ -273,6 +274,7 @@
 
     &__location{
         font-size: 1.3rem;
+        margin-left: auto;
     }
 
     &__icon-location{
@@ -294,6 +296,7 @@
         @media screen and (max-width: $bp-small) {
             padding: 0 1.5rem;
         }
+
     }
 
     &__rating-average{
