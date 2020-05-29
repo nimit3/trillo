@@ -1,4 +1,4 @@
 # trillo
-Single webpage design with flexbox
+Single webpage design with latest flexbox code, scss and css variables
 
-This project is being developed at the momment.
+

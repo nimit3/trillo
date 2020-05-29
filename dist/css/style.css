@@ -303,15 +303,14 @@ body {
       .overview__heading {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
-  .overview__stars {
-    margin-right: auto; }
   .overview__icon-star, .overview__icon-location {
     width: 1.75rem;
     height: 1.75rem;
     fill: var(--color-primary);
     margin-bottom: -5px; }
   .overview__location {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-left: auto; }
   .overview__icon-location {
     margin-right: .5rem; }
   .overview__rating {
