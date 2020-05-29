@@ -38,6 +38,12 @@ Grey dark 3: #999
     --line: 2px solid var(--color-grey-light-2);
 }
 
+//----------------SASS VAR FOR MEDIA QUERIES---------------------
+$bp-largest:81.25em; //1300px /16 =81.25 rem
+$bp-large:68.75em;  //1100px / 16 = 68.75rem
+$bp-medium:56.25em;  //900px /16 = 56.25em
+$bp-small: 37.5em;  //600px / q6 = 37.5em
+$bp-smallest:31.25em;  //500px/16 = 31.25em
 *{
     margin: 0;
     padding: 0;
@@ -52,6 +58,10 @@ Grey dark 3: #999
 html{
     box-sizing: border-box;
     font-size: 62.5%; //1rem = 10px; 10px*100/16px =62.5%
+
+    @media screen and (max-width: $bp-large) {
+        font-size:50% ; // 8/16 =50%
+    }
 
 }
 
