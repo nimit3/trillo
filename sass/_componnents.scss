@@ -111,6 +111,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media screen and (max-width: $bp-smallest) {
+            top: 0px;
+            right: 9px;
+        }
+
     }
 
     &__user{

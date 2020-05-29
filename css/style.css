@@ -205,6 +205,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media screen and (max-width: 31.25em) {
+      .user-nav__notification {
+        top: 0px;
+        right: 9px; } }
   .user-nav__user {
     display: flex;
     align-items: center; }
