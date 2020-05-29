@@ -7,10 +7,12 @@
     "watch:sass": "node-sass dist/sass/main.scss dist/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "node-sass dist/sass/main.scss dist/css/style.comp.css"
+    "compile:sass": "node-sass dist/sass/main.scss dist/css/style.comp.css",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Nimit",
   "license": "ISC",
+  "homepage": "https://nimit3.github.io/trillo",
   "devDependencies": {
     "autoprefixer": "^9.8.0",
     "concat": "^1.0.3",
